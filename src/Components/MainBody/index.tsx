@@ -22,7 +22,7 @@ const Wrapper = styled.div`
   margin: 8rem 15rem;
   border-radius: 18px;
   overflow: hidden;
-  height: 670px;
+  height: 570px;
   padding: 5rem 8rem;
   background: var(--bgMain);
   border: 12px solid var(--white) inset;
@@ -31,7 +31,7 @@ const Wrapper = styled.div`
 
   @media only screen and (max-width: 1480px) {
     margin: 2rem;
-    padding: 2rem 3rem;
+    padding: 5rem 3rem;
   }
 
   @media only screen and (max-width: 850px) {
