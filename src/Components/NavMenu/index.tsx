@@ -6,7 +6,7 @@ const Container = styled.div<{ isMobile: boolean }>`
   position: absolute;
   display: flex;
   left: 16rem;
-  top: 10rem;
+  top: 5rem;
   z-index: 10;
 
   .mobile {
