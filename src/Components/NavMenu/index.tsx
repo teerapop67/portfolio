@@ -65,6 +65,11 @@ const Container = styled.div<{ isMobile: boolean }>`
       cursor: pointer;
       font-size: 30px;
       color: var(--white);
+
+      @media only screen and (max-width: 350px) {
+          left: 0;
+          top: -1.5rem;
+       }
     }
   }
 `;

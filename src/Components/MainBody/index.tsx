@@ -31,8 +31,16 @@ const Wrapper = styled.div`
 
   @media only screen and (max-width: 1480px) {
     margin: 2rem;
-    padding: 5rem 3rem;
+    padding: 2rem 3rem;
+  }
+
+  @media only screen and (max-width: 850px) {
     height: auto;
+  }
+
+  @media only screen and (max-width: 350px) {
+    margin: 12px;
+    padding: 5rem 15px;
   }
 `;
 
