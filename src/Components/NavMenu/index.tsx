@@ -35,9 +35,7 @@ const Container = styled.div<{ isMobile: boolean }>`
     top: 4rem;
   }
 
-  @media only screen and (max-width: 1024px) {
-    left: 16rem;
-  }
+
 
   //Nav Mobile
   @media only screen and (max-width: 550px) {
