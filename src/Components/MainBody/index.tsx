@@ -19,7 +19,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  margin: 3rem 15rem;
+  margin: 2rem 15rem;
   border-radius: 18px;
   overflow: hidden;
   height: 670px;
@@ -27,11 +27,13 @@ const Wrapper = styled.div`
   background: var(--bgMain);
   border: 12px solid var(--white) inset;
   position: relative;
-  box-shadow: inset 2px 2px 10px var(--shadow);
+  box-shadow: inset 0px 0px 10px var(--shadow);
 
   @media only screen and (max-width: 1480px) {
     margin: 2rem;
-    padding: 5rem 3rem;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding: 0 3rem;
     height: auto;
   }
 
