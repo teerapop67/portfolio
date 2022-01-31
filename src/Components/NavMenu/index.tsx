@@ -4,10 +4,10 @@ import styled from "styled-components";
 
 const Container = styled.div<{ isMobile: boolean }>`
   position: absolute;
+  display: flex;
   left: 16rem;
   top: 10rem;
   z-index: 10;
-  display: flex;
 
   .mobile {
     display: none;
@@ -33,6 +33,10 @@ const Container = styled.div<{ isMobile: boolean }>`
   @media only screen and (max-width: 1480px) {
     left: 2rem;
     top: 4rem;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    left: 16rem;
   }
 
   //Nav Mobile

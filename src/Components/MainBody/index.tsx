@@ -34,6 +34,11 @@ const Wrapper = styled.div`
     padding: 5rem 3rem;
     height: auto;
   }
+
+  @media only screen and (max-width: 1024px) {
+    margin: 2rem 15rem;
+    height: 800px;
+  }
 `;
 
 const Circle = styled.div<{ right: string }>`
