@@ -33,7 +33,8 @@ const Wrapper = styled.div`
     margin: 2rem;
     padding-top: 5rem;
     padding-bottom: 2rem;
-    padding: 0 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
     height: auto;
   }
 
