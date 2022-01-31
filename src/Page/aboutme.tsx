@@ -1,15 +1,8 @@
 import React from "react";
 import MainBody from "../Components/MainBody";
 import { useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
-import {
-  Box3Info,
-  ContainerMain,
-  DownZone,
-  UpZone,
-  WrapperUse,
-} from "../Layout";
+import { Box3Info, DownZone, UpZone, WrapperUse } from "../Layout";
 import { SubTopic, Texts, Topic } from "../Layout/textUse";
 import { skillFrontend, skillBackend, skillUxUi } from "../data/skills";
 

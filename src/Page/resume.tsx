@@ -2,7 +2,7 @@ import React from "react";
 import MainBody from "../Components/MainBody";
 import { useTranslation } from "react-i18next";
 import styled from "styled-components";
-import { Box3Info, DownZone, WrapperUse } from "../Layout";
+import { Box3Info, WrapperUse } from "../Layout";
 import { SubTopic, Texts, Topic } from "../Layout/textUse";
 import { UpZone } from "../Layout";
 import { ButtonYear } from "../Components/Buttons";

@@ -1,6 +1,5 @@
 import { Suspense, lazy } from "react";
 import { GlobalStyle } from "./Global.style";
-import styled from "styled-components";
 import Main from "./Page/main";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./index.css";

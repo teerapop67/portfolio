@@ -41,16 +41,32 @@ const Footer: React.FC<any> = () => {
       <Wrapper>
         <p>&copy; 2021 Teerapop. All right reversed </p>{" "}
         <div className="Icon-social">
-          <a href="https://www.facebook.com/benz.acdemy/" target="_blank">
+          <a
+            href="https://www.facebook.com/benz.acdemy/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <i className="fab fa-facebook"></i>
           </a>
-          <a href="https://github.com/teerapop67" target="_blank">
+          <a
+            href="https://github.com/teerapop67"
+            rel="noreferrer"
+            target="_blank"
+          >
             <i className="fab fa-github"></i>
           </a>
-          <a href="https://twitter.com/benzztj" target="_blank">
+          <a
+            href="https://twitter.com/benzztj"
+            rel="noreferrer"
+            target="_blank"
+          >
             <i className="fab fa-twitter"></i>
           </a>
-          <a href="https://www.instagram.com/benzztj/" target="_blank">
+          <a
+            href="https://www.instagram.com/benzztj/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <i className="fab fa-instagram"></i>
           </a>
         </div>

@@ -1,8 +1,8 @@
 import React from "react";
 import MainBody from "../Components/MainBody";
-import { Trans, useTranslation } from "react-i18next";
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+// import { Trans, useTranslation } from "react-i18next";
+// import { Link } from "react-router-dom";
+// import styled from "styled-components";
 import { ContainerMain } from "../Layout";
 
 const Portfolio: React.FC<any> = () => {
