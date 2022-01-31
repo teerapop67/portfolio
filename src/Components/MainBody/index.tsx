@@ -19,10 +19,10 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-  margin: 8rem 15rem;
+  margin: 6rem 15rem;
   border-radius: 18px;
   overflow: hidden;
-  height: 570px;
+  height: 670px;
   padding: 5rem 8rem;
   background: var(--bgMain);
   border: 12px solid var(--white) inset;
